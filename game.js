@@ -7,6 +7,7 @@ const range = (min, max) => Math.ceil(Math.random() * (max - min) + min);
 
 let initialNumber = range(0, 10);
 
+
 const ask = (previousNumber, numberToAdd = range(0, 10)) => {
   const correctAnswer = previousNumber + numberToAdd;
 
@@ -33,3 +34,9 @@ ask(initialNumber);
 // the ability to hide the previous number (to force you to remember it)
 // modes like easy, medium, hard.
 // different operators like * and /
+// hide the question so you have to remember the numbers
+// stop the game if you get one wrong (or lose lives?) so that the game ends and you get a score.
+  // average answer speed
+  // fastest answer
+  // total correct
+  // highest number
