@@ -8,6 +8,7 @@
   - [Calculate Percentage Tip](#calculate-percentage-tip)
   - [Squaring and More](#squaring-and-more)
   - [Figure out the day of the week of January first in any year.](#figure-out-the-day-of-the-week-of-january-first-in-any-year)
+  - [Left to Right Addition](#left-to-right-addition)
 
 <!-- /code_chunk_output -->
 
@@ -42,3 +43,16 @@ last 2 digits of the year = 20
 - add 25% (10% = 2), 20% = 4. 5% = 1) 25% = 5 you can ignore decimal numbers.
 - so your total is 25. subtract the biggest multiple of 7 (basically like a modulo 7) to get the remainder
 - 25 - 21 = 4. so 
+
+## Left to Right Addition
+basically, just always add numbers from left to right instead of right to left.
+your brain can perform this faster and carries numbers better.
+
+the book also recommends thinking about math in steps.
+
+```js
+43 + 28
+43 + 20
+= 63
++ 8 = 71
+```
