@@ -7,7 +7,6 @@ const range = (min, max) => Math.ceil(Math.random() * (max - min) + min);
 
 let initialNumber = range(0, 10);
 
-
 const ask = (previousNumber, numberToAdd = range(0, 10)) => {
   const correctAnswer = previousNumber + numberToAdd;
 
@@ -27,7 +26,9 @@ const ask = (previousNumber, numberToAdd = range(0, 10)) => {
 
 ask(initialNumber);
 
-// 1 digit, 2 digit, and 3 digit modes
+// 1 digit, 2 digit, and 3 digit modes. for both the initial number, and the second number.
+//so you can add a 4 digit to 2 digits for example.
+// don't use the previous answer, generate a random question each time?
 // allow positive or negative
 // Try again with same number feature
 // the ability to measure speed as a measure of performance
@@ -36,7 +37,7 @@ ask(initialNumber);
 // different operators like * and /
 // hide the question so you have to remember the numbers
 // stop the game if you get one wrong (or lose lives?) so that the game ends and you get a score.
-  // average answer speed
-  // fastest answer
-  // total correct
-  // highest number
+// average answer speed
+// fastest answer
+// total correct
+// highest number
