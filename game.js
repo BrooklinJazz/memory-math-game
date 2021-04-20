@@ -20,8 +20,6 @@ const ask = (previousNumber, numberToAdd = range(0, 10)) => {
         console.log("Try again");
         ask(previousNumber, numberToAdd);
       }
-
-      // readline.close();
     }
   );
 };
