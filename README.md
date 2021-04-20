@@ -9,6 +9,8 @@
   - [Squaring and More](#squaring-and-more)
   - [Figure out the day of the week of January first in any year.](#figure-out-the-day-of-the-week-of-january-first-in-any-year)
   - [Left to Right Addition](#left-to-right-addition)
+  - [Two digit Subtraction](#two-digit-subtraction)
+  - [Master the multiplacation table.](#master-the-multiplacation-table)
 
 <!-- /code_chunk_output -->
 
@@ -56,3 +58,24 @@ the book also recommends thinking about math in steps.
 = 63
 + 8 = 71
 ```
+
+## Two digit Subtraction
+- separate into steps as before
+- convert into easy addition problems.
+```
+86 - 29
+86 - (20 + 9)
+OR 86 - 30 + 1
+```
+- if a subtraction problem requires "borrowing" convert into an addition problem. otherwise you can simply perform calculations from left to right as normal.
+
+for larger problems, find the nearest hundered
+```
+725 - 
+468 (500 - 32)
+
+= 225 + 32 = 257
+```
+
+## Master the multiplacation table.
+Further skills require mastery over the 1->10 multiplication table.
