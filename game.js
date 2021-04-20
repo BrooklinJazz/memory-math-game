@@ -41,3 +41,5 @@ ask(initialNumber);
 // fastest answer
 // total correct
 // highest number
+
+// create a game to master multiplication tables up to 10
