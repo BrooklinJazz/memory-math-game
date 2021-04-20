@@ -29,6 +29,7 @@ ask(initialNumber);
 // 1 digit, 2 digit, and 3 digit modes
 // allow positive or negative
 // Try again with same number feature
-// the ability to measure speed
+// the ability to measure speed as a measure of performance
+// the ability to hide the previous number (to force you to remember it)
 // modes like easy, medium, hard.
 // different operators like * and /
